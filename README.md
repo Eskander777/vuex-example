@@ -4,4 +4,4 @@
 
 - Clone repo
 - Run `npm i`
-- Afterfinished downloading, run `npm run serve`
+- After finished downloading, run `npm run serve`
