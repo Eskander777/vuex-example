@@ -30,6 +30,9 @@ export default {
     cart() {
       return this.$store.getters.cart;
     },
+    cartQty() {
+      return this.$store.getters.cartQty;
+    },
     isLoggedIn() {
       return this.$store.getters.isLoggedIn;
     },

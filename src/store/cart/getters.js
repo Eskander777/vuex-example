@@ -5,6 +5,9 @@ const cartGetters = {
   cartTotal(state) {
     return state.cart.total.toFixed(2);
   },
+  cartQty(state) {
+    return state.cart.qty;
+  },
 };
 
 export default cartGetters;
